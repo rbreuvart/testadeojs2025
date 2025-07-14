@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true, 
+    "skipLibCheck": true, 
+    "target": "ES2020", 
+    "allowJs": true,
+    "resolveJsonModule": true, 
+    "moduleDetection": "force", 
+
+    "strict": true, 
+    "noImplicitAny": true, 
+    "strictNullChecks": true, 
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true, 
+    "noImplicitThis": true, 
+    "alwaysStrict": true,
+    "module": "CommonJS", 
+    "moduleResolution": "node", 
+    "baseUrl": "./", 
+    "paths": {
+      "@application/*": ["src/application/*"],
+      "@domain/*": ["src/domain/*"],
+      "@infrastructure/*": ["src/infrastructure/*"]
+    },
+    "types": ["node", "jest"],
+    "sourceMap": true, 
+    "outDir": "./dist",  
+    "rootDir": "./", 
+    "forceConsistentCasingInFileNames": true, 
+  },
+  "include": [  
+    "src/**/*.ts", 
+  ],
+  "exclude": [ 
+    "node_modules",
+    "dist", 
+    "coverage" 
+  ]
+}
