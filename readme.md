@@ -43,7 +43,7 @@ Néanmoins, dans le cadre de ce test, j'ai choisie de valoriser mes compétences
 /package.json --> declaration des dependances...
 ```
 
-![diag](https://github.com/rbreuvart/testadeojs2025/docs/raw/master/docs/diag.png "diagramme")
+![diag](https://github.com/rbreuvart/testadeojs2025/blob/main/docs/diag.png?raw=true "diagramme")
 
 # Instalation
 ```
